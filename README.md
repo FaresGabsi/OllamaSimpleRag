@@ -24,7 +24,7 @@ ollama pull nomic-embed-text
 ```
 .
 ├── Data/                  # PDF files
-├── main.py                # Main script
+├── pdf-rag.py                # Main script
 ├── README.md              # Documentation
 └── requirements.txt        # Dependencies
 ```

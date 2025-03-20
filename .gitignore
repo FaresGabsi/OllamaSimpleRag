@@ -1,0 +1,58 @@
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Byte-compiled and cache files
+__pycache__/
+*.py[cod]
+*$PYTHONLEGACYWINDOWSSTDIO
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore logs and debugging files
+*.log
+debug.log
+
+# Ignore dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore environment variables and secrets
+.env
+*.env
+config.json
+config.yaml
+secrets.json
+secrets.yaml
+
+# Ignore datasets and large files (if applicable)
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+
+# Ignore model and vector database files (if applicable)
+models/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+vectorstore/
+index.faiss
+database.sqlite
+*.db
